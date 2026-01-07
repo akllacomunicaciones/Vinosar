@@ -1,7 +1,7 @@
 
-  # dd
+  # Vinos AR Cascas
 
-  This is a code bundle for dd. The original project is available at https://www.figma.com/design/znEnuP69AuUyskpscwMatM/dd.
+  This is a code bundle for Vinos AR Cascas. The original project is available at https://www.figma.com/design/znEnuP69AuUyskpscwMatM/Vinos-AR-Cascas.
 
   ## Running the code
 
