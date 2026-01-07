@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Menu, X } from 'lucide-react';
 import { ImageWithFallback } from './figma/ImageWithFallback';
-import logoImage from 'figma:asset/caed7960c8f74dd9cbb8b594e6fa6167b12abcbc.png';
 
 interface HeaderProps {
   onNavigate: (section: 'home' | 'vinos' | 'turismo' | 'rutas') => void;
@@ -76,7 +75,7 @@ export function Header({ onNavigate, activeSection = 'home' }: HeaderProps) {
           >
             <div className="relative">
               <ImageWithFallback
-                src={logoImage}
+                src="/images/logo-vinos-ar.webp"
                 alt="Vinos AR Logo"
                 className="h-16 w-16 rounded-full object-cover transition-all duration-300 group-hover:scale-105"
               />

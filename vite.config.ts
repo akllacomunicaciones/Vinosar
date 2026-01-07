@@ -19,7 +19,6 @@
         'input-otp@1.4.2': 'input-otp',
         'figma:asset/de2ae7c2601f68ed21c9a4232db5b2fa0a249873.png': path.resolve(__dirname, './src/assets/de2ae7c2601f68ed21c9a4232db5b2fa0a249873.png'),
         'figma:asset/cff470cbb027812989a73dd313094f4cf7975286.png': path.resolve(__dirname, './src/assets/cff470cbb027812989a73dd313094f4cf7975286.png'),
-        'figma:asset/caed7960c8f74dd9cbb8b594e6fa6167b12abcbc.png': path.resolve(__dirname, './src/assets/caed7960c8f74dd9cbb8b594e6fa6167b12abcbc.png'),
         'figma:asset/a5687fbd27ff5bd35e740adae0dac48878a75fbd.png': path.resolve(__dirname, './src/assets/a5687fbd27ff5bd35e740adae0dac48878a75fbd.png'),
         'figma:asset/a48888d467ee30e8fc84eb09f7874ac71ee2128b.png': path.resolve(__dirname, './src/assets/a48888d467ee30e8fc84eb09f7874ac71ee2128b.png'),
         'figma:asset/9dcf192da4e63ed72e16b176dc18c5d69c639c43.png': path.resolve(__dirname, './src/assets/9dcf192da4e63ed72e16b176dc18c5d69c639c43.png'),
