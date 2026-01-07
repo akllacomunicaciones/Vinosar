@@ -1,15 +1,11 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
-import imgCascadas1 from 'figma:asset/585c3300561d908ea722a3b8fe42caedfe844309.png';
-import imgCascadas2 from 'figma:asset/e6a6495b5762fda5431358479aeee875a25ba77e.png';
-import imgCascadas3 from 'figma:asset/df3f316c0dddd7255f29cf8115a0e0e89dc5ace0.png';
-import imgCascadas4 from 'figma:asset/2d787ca1cabeb9db83de6c19dffff8c14d435875.png';
 
 const backgroundImages = [
-  imgCascadas1,
-  imgCascadas2,
-  imgCascadas3,
-  imgCascadas4,
+  '/images/cascadas-1.webp',
+  '/images/cascadas-2.webp',
+  '/images/cascadas-3.webp',
+  '/images/cascadas-4.webp',
 ];
 
 interface HeroLandingProps {

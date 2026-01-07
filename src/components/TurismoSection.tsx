@@ -3,14 +3,6 @@ import { Mountain, MapPin, Clock, Star, Filter } from 'lucide-react';
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { DestinationDetail } from './DestinationDetail';
-import miradorChungazon from 'figma:asset/32bb22ab18ccab4618070ff7963e8d35fec1784b.png';
-import cristoRocas from 'figma:asset/c16466dee1761624110449dde631974abcce5993.png';
-import caserioSalmuche from 'figma:asset/46c9a0d8348b03b76b0e7c39ab9f75bd9a642039.png';
-import tinajaPancal from 'figma:asset/64ad8f23bf4e1a781724f6f4e2ec2e277476430f.png';
-import iglesiaMatrizPortada from 'figma:asset/be8850ec95c0d834eb725cd1cbba60d9d9e210d4.png';
-import iglesiaMatrizAngel from 'figma:asset/cf1c3039630b267a0228222cd761cf6074284d8c.png';
-import iglesiaMatrizVista from 'figma:asset/1951c5bd8fcf6441eb9562bf3ac21da1a5d20ba7.png';
-import iglesiaMatrizNoche from 'figma:asset/454b53d699150cae96236dc55da2b94ea0058d90.png';
 
 const cascasDestinations = [
   {
@@ -19,11 +11,11 @@ const cascasDestinations = [
     categoryLabel: 'Turismo dentro del Pueblo de Cascas',
     name: 'IGLESIA MATRIZ',
     description: 'Situada en la Plaza de Armas, sobre un recinto prehispánico, en este templo se venera a la Virgen del Rosario de Chiquinquirá, cuya imagen fue obsequiada nada menos que por el libertador Simón Bolívar, en agradecimiento al apoyo del pueblo a la causa independentista.',
-    heroImage: iglesiaMatrizPortada,
+    heroImage: '/images/iglesia-matriz-portada.webp',
     gallery: [
-      iglesiaMatrizAngel,
-      iglesiaMatrizVista,
-      iglesiaMatrizNoche,
+      '/images/iglesia-matriz-angel.webp',
+      '/images/iglesia-matriz-vista.webp',
+      '/images/iglesia-matriz-noche.webp',
       'https://images.unsplash.com/photo-1760726338840-b75fe4791cf8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb2xvbmlhbCUyMGNodXJjaCUyMHBlcnUlMjBhcmNoaXRlY3R1cmV8ZW58MXx8fHwxNzY0ODcwMzkwfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
       'https://images.unsplash.com/photo-1760726338840-b75fe4791cf8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb2xvbmlhbCUyMGNodXJjaCUyMHBlcnUlMjBhcmNoaXRlY3R1cmV8ZW58MXx8fHwxNzY0ODcwMzkwfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
     ],
@@ -34,13 +26,13 @@ const cascasDestinations = [
     categoryLabel: 'Turismo al Norte de Cascas',
     name: 'CRISTO DE LAS ROCAS',
     description: 'Partiendo de la plaza de Armas, se encuentra a 3 km al norte de la cuidad de Cascas, en el caserío de El Platanar, es una formación rocosa rodeada con densa vegetación. Donde se aprecia el perfil del rostro de Jesucristo labrado por la naturaleza, ostenta nitidez en su imagen y se puede observar los ojos, boca, nariz y hasta la corona de espinas. Tiene aproximadamente 20 metros de lago y 7 metros de ancho aproximadamente, causando admiración a quienes la visitan.',
-    heroImage: cristoRocas,
+    heroImage: '/images/cristo-rocas.webp',
     gallery: [
-      cristoRocas,
-      cristoRocas,
-      cristoRocas,
-      cristoRocas,
-      cristoRocas,
+      '/images/cristo-rocas.webp',
+      '/images/cristo-rocas.webp',
+      '/images/cristo-rocas.webp',
+      '/images/cristo-rocas.webp',
+      '/images/cristo-rocas.webp',
     ],
   },
   {
@@ -49,13 +41,13 @@ const cascasDestinations = [
     categoryLabel: 'Turismo al Este de Cascas',
     name: 'LA TINAJA DEL PANCAL',
     description: 'La Tinaja del Pancal, es un atractivo natural el cual es admirante observar una piedra que tiene la forma de una tinaja.',
-    heroImage: tinajaPancal,
+    heroImage: '/images/tinaja-pancal.webp',
     gallery: [
-      tinajaPancal,
-      tinajaPancal,
-      tinajaPancal,
-      tinajaPancal,
-      tinajaPancal,
+      '/images/tinaja-pancal.webp',
+      '/images/tinaja-pancal.webp',
+      '/images/tinaja-pancal.webp',
+      '/images/tinaja-pancal.webp',
+      '/images/tinaja-pancal.webp',
     ],
   },
   {
@@ -64,13 +56,13 @@ const cascasDestinations = [
     categoryLabel: 'Turismo al Oeste de Cascas',
     name: 'CASERIO DE SALMUCHE',
     description: 'Salmuche es un caserío del Distrito de Cascas, Provincia de Gran Chimú, del Departamento La Libertad. Cual se encuentra ubicado al Nor-Oeste del Distrito de Cascas, con una altitud de 1585 m.s.n.m. Podrás encontrar varias variedades de uvas viníferas, pisqueras, de mesa y apirenas (uva sin pepa). Tierra de gran fertilidad, acogedora de flora, fauna y sus majestuosas aves rapases que merodean su cerro El Antivo.',
-    heroImage: caserioSalmuche,
+    heroImage: '/images/caserio-salmuche.webp',
     gallery: [
-      caserioSalmuche,
-      caserioSalmuche,
-      caserioSalmuche,
-      caserioSalmuche,
-      caserioSalmuche,
+      '/images/caserio-salmuche.webp',
+      '/images/caserio-salmuche.webp',
+      '/images/caserio-salmuche.webp',
+      '/images/caserio-salmuche.webp',
+      '/images/caserio-salmuche.webp',
     ],
   },
   {
@@ -79,13 +71,13 @@ const cascasDestinations = [
     categoryLabel: 'Turismo al Sur de Cascas',
     name: 'MIRADOR NATURAL CHUNGAZON',
     description: 'Mirador turístico natural, alcanza los 1238 m snm. Se ubica al sureste de Cascas en el Caserío de Pampas de San Isidro, a 10 minutos partiendo desde la plaza de Armas o accediendo por la ruta de ingreso a Cascas a la altura del Sector Casa Blanca. Tiene una superficie de unas 4 hectáreas, desde donde se observa el paisaje natural, los viñedos, el crecimiento de la cuidad y la convivencia de la población con su historia y costumbres. En la antigüedad sirvió como lugar ceremonial encontrándose restos de cerámica, en la actualidad se ha convertido en el escenario perfecto para la escenificación de la crucifixión de Jesucristo de Semana Santa.',
-    heroImage: miradorChungazon,
+    heroImage: '/images/mirador-chungazon.webp',
     gallery: [
-      miradorChungazon,
-      miradorChungazon,
-      miradorChungazon,
-      miradorChungazon,
-      miradorChungazon,
+      '/images/mirador-chungazon.webp',
+      '/images/mirador-chungazon.webp',
+      '/images/mirador-chungazon.webp',
+      '/images/mirador-chungazon.webp',
+      '/images/mirador-chungazon.webp',
     ],
   },
 ];
