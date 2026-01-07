@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { HomePage } from './pages/HomePage';
 import { VinosPage } from './pages/VinosPage';
 import { TurismoPage } from './pages/TurismoPage';
@@ -8,6 +8,11 @@ import { WhatsAppButton } from './components/WhatsAppButton';
 export default function App() {
   const [currentPage, setCurrentPage] = useState<'home' | 'vinos' | 'turismo' | 'rutas'>('home');
   const [selectedDestinationId, setSelectedDestinationId] = useState<number | null>(null);
+
+  // Establecer el título de la página
+  useEffect(() => {
+    document.title = 'Vinos AR Cascas';
+  }, []);
 
   const navigate = (page: 'home' | 'vinos' | 'turismo' | 'rutas') => {
     setCurrentPage(page);

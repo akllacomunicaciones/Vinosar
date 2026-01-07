@@ -1,7 +1,7 @@
 
-  # Boceto Página Principal Web (copia)
+  # dd
 
-  This is a code bundle for Boceto Página Principal Web (copia). The original project is available at https://www.figma.com/design/znEnuP69AuUyskpscwMatM/Boceto-P%C3%A1gina-Principal-Web--copia-.
+  This is a code bundle for dd. The original project is available at https://www.figma.com/design/znEnuP69AuUyskpscwMatM/dd.
 
   ## Running the code
 
